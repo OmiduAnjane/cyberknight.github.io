@@ -1355,6 +1355,194 @@ footer span a:hover{
         line-height: 38px;
 
     }
+    
+    * {box-sizing: border-box}
+
+494
+
+
+
+495
+
+/* Add padding to containers */
+
+496
+
+.container {
+
+497
+
+  padding: 16px;
+
+498
+
+}
+
+499
+
+
+
+500
+
+/* Full-width input fields */
+
+501
+
+input[type=text], input[type=password] {
+
+502
+
+  width: 100%;
+
+503
+
+  padding: 15px;
+
+504
+
+  margin: 5px 0 22px 0;
+
+505
+
+  display: inline-block;
+
+506
+
+  border: none;
+
+507
+
+  background: #f1f1f1;
+
+508
+
+}
+
+509
+
+
+
+510
+
+input[type=text]:focus, input[type=password]:focus {
+
+511
+
+  background-color: #ddd;
+
+512
+
+  outline: none;
+
+513
+
+}
+
+514
+
+
+
+515
+
+/* Overwrite default styles of hr */
+
+516
+
+hr {
+
+517
+
+  border: 1px solid #f1f1f1;
+
+518
+
+  margin-bottom: 25px;
+
+519
+
+}
+
+520
+
+
+
+521
+
+/* Set a style for the submit/register button */
+
+522
+
+.registerbtn {
+
+523
+
+  background-color: #04AA6D;
+
+524
+
+  color: white;
+
+525
+
+  padding: 16px 20px;
+
+526
+
+  margin: 8px 0;
+
+527
+
+  border: none;
+
+528
+
+  cursor: pointer;
+
+529
+
+  width: 100%;
+
+530
+
+  opacity: 0.9;
+
+531
+
+}
+
+532
+
+
+
+533
+
+.registerbtn:hover {
+
+534
+
+  opacity:1;
+
+535
+
+}
+
+536
+
+a {
+
+  color: dodgerblue;
+
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+
+  background-color: #f1f1f1;
+
+  text-align: center;
+
+}
 
 }
 
