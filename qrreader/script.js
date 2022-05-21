@@ -11,7 +11,7 @@ function fetchRequest(file, formData) {
         method: 'POST', body: formData
     }).then(res => res.json()).then(result => {
         result = result[0].symbol[0].data;
-        infoText.innerText = result ? "Upload QR Code to Scan" : "Couldn't scan QR Code";
+        infoText.innerText = result ? "Upload QR Code to Scan" : "යකෝ QR Code එක විතරක් දාපන්"
         if(!result) return;
         document.querySelector("textarea").innerText = result;
         form.querySelector("img").src = URL.createObjectURL(file);
